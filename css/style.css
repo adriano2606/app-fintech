@@ -9,6 +9,40 @@
     --black-grey-color: #18181A;
 }
 
-.bg-lightgryey{
-background-color: var(--light-grey-color);
+.bg-light-gryey{
+    background-color: var(--light-grey-color);
 }
+
+.bg-black-grey{
+    background-color: var(--black-grey-color);
+}
+
+.bg-myprimary{
+    background-color: var(--primary-color);
+}
+
+.my-py-6{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+nav{
+    width: 5%;
+    font-size: 1.3rem;
+}
+
+nav > i:hover {
+    cursor: pointer;
+}
+
+.item-menu-selected{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    color: var(--black-color);
+    border-radius: 75px;
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--dark-grey-color);
+    --bs-tooltip-color: var(--bs-white);
+  }
