@@ -1,0 +1,14 @@
+:root{
+    --primary-color: #C6FE1E;
+    --secondary-color: #030028;
+    --light-grey-color: #EBEBEB;
+    --medium-grey-color: #E4E4E4;
+    --dark-grey-color: #575757;
+    --highlight-color: #1364FF;
+    --black-color: #000000;
+    --black-grey-color: #18181A;
+}
+
+.bg-lightgryey{
+background-color: var(--light-grey-color);
+}
