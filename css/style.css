@@ -40,33 +40,13 @@ body{
     color: var(--dark-grey-color);
 }
 
-.title{
-    font-size: 1.6rem;
-    font-weight: 500;
-}
-
 .py-6{
     padding-top: calc(1rem * 4);
     padding-bottom: calc(1rem * 4);
 }
 
-nav{
-    font-size: 1.3rem;
-    width: 5rem;
-}
-
 nav > i:hover {
     cursor: pointer;
-}
-
-.item-menu-selected{
-    color: red;
-    font-weight: 600;
-}
-
-.custom-tooltip {
-    --bs-tooltip-bg: var(--dark-grey-color);
-    --bs-tooltip-color: var(--bs-white);
 }
 
 .medium-text{
@@ -88,10 +68,6 @@ nav > i:hover {
 .activity-icon{
     width: 35px;
     height: 35px;
-}
-
-.fixed-left{
-    position: fixed;
 }
 
 .px-6{
