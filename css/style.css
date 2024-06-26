@@ -32,6 +32,10 @@ body{
     background-color: var(--primary-color);
 }
 
+.bg-dark-grey{
+    background-color: var(--dark-grey-color);
+}
+
 .text-dark-grey{
     color: var(--dark-grey-color);
 }
@@ -56,10 +60,8 @@ nav > i:hover {
 }
 
 .item-menu-selected{
-    background-color: var(--primary-color);
-    color: var(--black-color);
-    border-radius: 40px;
-    font-weight: bold;
+    color: red;
+    font-weight: 600;
 }
 
 .custom-tooltip {
@@ -80,7 +82,7 @@ nav > i:hover {
 
 .large-text{
     line-height: 100%;
-    font-size: .9rem;
+    font-size: 1rem;
 }
 
 .activity-icon{

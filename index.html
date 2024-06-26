@@ -10,42 +10,46 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="bg-light-grey">
-    
-        <!-- Menu -->
-        <div class="fixed-left mx-4">
-                <header class="min-vh-100 d-flex flex-column justify-content-center ">
-                    <nav class="bg-black-grey text-light d-flex flex-column align-items-center gap-3 shadow py-6 rounded-pill">
-                        <i class="bi bi-house item-menu-selected px-3 py-4" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Página inicial" data-bs-custom-class="custom-tooltip"
-                        ></i>
-                        <i class="bi bi-wallet2 px-3 py-4" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Movimentações" data-bs-custom-class="custom-tooltip"></i>
-                        <i class="bi bi-bar-chart px-3 py-4" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Desempenho" data-bs-custom-class="custom-tooltip"></i>
-                        <i class="bi bi-person px-3 py-4" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Meu perfil" data-bs-custom-class="custom-tooltip"></i>
-                    </nav>
-                </header>
-        </div>
-        <!-- Fim Menu -->
 
-    <div class="container px-7">
+    <div class="bg-black-grey sticky-top shadow-sm border w-100 mb-lg-5" data-bs-theme="dark">
+        <nav class="w-100 container navbar navbar-expand-lg">
+            <div class="container d-md-flex justify-content-between">
+              <a class="navbar-brand me-lg-5 fw-bolder text-light" href="#">Fintech</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse ms-lg-5" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 large-text ">
+                    <li class="nav-item mx-lg-4 px-md-2 my-2 my-md-0 rounded-4 ps-4 item-menu-selected">
+                        <a class="nav-link active" href="#">Início</a>
+                    </li>
+                    <li class="nav-item mx-lg-4 px-md-2 my-2 my-md-0 rounded-4 ps-4">
+                        <a class="nav-link " href="#">Movimentações</a>
+                    </li>
+                    <li class="nav-item mx-lg-4 px-md-2 my-2 my-md-0 rounded-4 ps-4">
+                        <a class="nav-link " href="#">Desempenho</a>
+                    </li>
+
+                </ul>
+
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <div class="container">       
 
         <!-- Conteúdo -->
         <div class="py-4">
-
-                <!-- Greeting -->
-                <div class="row mb-4 mx-0">
-                    <div class="col  px-0 ">
-                        <p class="title text-dark-grey m-0">Olá, Adriano</p>
-                    </div>
-                </div>
-                <!-- Fim Greeting -->
 
                 <!-- Inicio Dash -->
                 <div class="row">
 
                     <!-- Coluna 1 -->
-                    <div class="col pe-5">
+                    <div class="col-md-6 mb-4 mb-lg-0">
 
                         <!-- Botões -->
-                        <div class="d-flex gap-3 mb-4">
+                        <div class="d-flex gap-3 mb-4 flex-wrap">
                             <button type="button" class="btn bg-medium-grey d-flex align-items-center gap-3 py-2 shadow-sm rounded-4 ">
                                 <i class="fa-solid fa-hand-holding-dollar fs-4"></i>
                                 <div class="text-start">
@@ -71,7 +75,7 @@
                         <!-- Fim Botões -->
 
                         <!-- Saldo Disponível -->
-                        <div class="bg-myprimary rounded-5 w-75 py-4 px-4 d-flex flex-column justify-content-center mb-4 ">
+                        <div class="bg-myprimary rounded-5 py-4 px-4 d-flex flex-column justify-content-center mb-4 ">
                             <p class="mb-0">Saldo Disponível</p>
                             <p class="fw-bolder fs-1 mb-0">R$ 100,00</p>
                         </div>
@@ -113,7 +117,7 @@
                     </div>
                     <!-- Fim Coluna 1 -->
 
-                    <div class="col px-0">
+                    <div class="col">
                         <div class="bg-medium-grey rounded-5 py-4 px-4 d-flex flex-column justify-content-center shadow-sm">
                             <div class="mb-4">
                                 <div class="d-flex gap-2 align-items-center">
