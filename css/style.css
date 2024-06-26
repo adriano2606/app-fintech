@@ -77,3 +77,13 @@ nav > i:hover {
     line-height: 100%;
     font-size: .7rem;
 }
+
+.large-text{
+    line-height: 100%;
+    font-size: .9rem;
+}
+
+.activity-icon{
+    width: 35px;
+    height: 35px;
+}
