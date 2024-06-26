@@ -79,3 +79,7 @@ nav > i:hover {
     padding-left: 4rem;
     padding-right: 4rem
 }
+
+.main-btns button:hover{
+    background-color: var(--primary-color);
+}
