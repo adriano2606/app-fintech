@@ -67,7 +67,13 @@ nav > i:hover {
     --bs-tooltip-color: var(--bs-white);
 }
 
-.small-text{
+.medium-text{
     line-height: 100%;
     font-size: .8rem;
+
+}
+
+.small-text{
+    line-height: 100%;
+    font-size: .7rem;
 }
