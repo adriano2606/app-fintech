@@ -6,19 +6,95 @@
     <title>Fintech App</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="container-fluid bg-lightgryey">
+<body class="container-fluid bg-light-grey">
     
-    <header class="min-vh-100 d-flex flex-column justify-content-center"> 
-        <nav class="bg-black-grey text-light d-flex flex-column align-items-center gap-5 my-py-6 rounded-pill">
-            <i class="bi bi-house bg-myprimary item-menu-selected" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Página inicial" data-bs-custom-class="custom-tooltip"
-            ></i>
-            <i class="bi bi-wallet2" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Movimentações" data-bs-custom-class="custom-tooltip"></i>
-            <i class="bi bi-bar-chart" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Desempenho" data-bs-custom-class="custom-tooltip"></i>
-            <i class="bi bi-person" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Meu perfil" data-bs-custom-class="custom-tooltip"></i>
-        </nav>
-    </header>
+    
+        <div class="row">
+
+            <!-- Menu -->
+            <div class="col-1 me-5">
+                <header class="min-vh-100 d-flex flex-column justify-content-center ">
+                    <nav class="bg-black-grey text-light d-flex flex-column align-items-center gap-3 shadow py-6 rounded-pill">
+                        <i class="bi bi-house item-menu-selected px-3 py-4" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Página inicial" data-bs-custom-class="custom-tooltip"
+                        ></i>
+                        <i class="bi bi-wallet2 px-3 py-4" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Movimentações" data-bs-custom-class="custom-tooltip"></i>
+                        <i class="bi bi-bar-chart px-3 py-4" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Desempenho" data-bs-custom-class="custom-tooltip"></i>
+                        <i class="bi bi-person px-3 py-4" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Meu perfil" data-bs-custom-class="custom-tooltip"></i>
+                    </nav>
+                </header>
+            </div>
+            <!-- Fim Menu -->
+
+            <!-- Conteúdo -->
+            <div class="col py-5">
+
+                <!-- Greeting -->
+                <div class="row mb-4">
+                    <div class="col  px-0 ">
+                        <p class="title text-dark-grey m-0">Olá, Adriano</p>
+                    </div>
+                    <div class="col  px-0 ">
+                        
+                    </div>
+                </div>
+                <!-- Fim Greeting -->
+
+                <!-- Inicio Dash -->
+                <div class="row">
+
+                    <!-- Coluna 1 -->
+                    <div class="col px-0">
+
+                        <!-- Botões -->
+                        <div class="d-flex gap-3 mb-4">
+                            <button type="button" class="btn bg-medium-grey d-flex align-items-center gap-3 py-2 shadow-sm rounded-4 ">
+                                <i class="fa-solid fa-hand-holding-dollar fs-4"></i>
+                                <div class="text-start">
+                                    <p class="my-0 small-text">Adicionar</p>
+                                    <p class="my-0 fw-bolder">Receita</p>
+                                </div>
+                            </button>
+                            <button type="button" class="btn bg-medium-grey d-flex align-items-center gap-3 py-2 shadow-sm rounded-4">
+                                <i class="fa-solid fa-receipt fs-4"></i>
+                                <div class="text-start">
+                                    <p class="my-0 small-text ">Adicionar</p>
+                                    <p class="my-0 fw-bolder">Despesa</p>
+                                </div>
+                            </button>
+                            <button type="button" class="btn bg-medium-grey d-flex align-items-center gap-3 py-2 shadow-sm rounded-4">
+                                <i class="fa-solid fa-money-bill-trend-up fs-4"></i>
+                                <div class="text-start">
+                                    <p class="my-0 small-text">Adicionar</p>
+                                    <p class="my-0 fw-bolder">Investimento</p>
+                                </div>
+                            </button>
+                        </div>
+                        <!-- Fim Botões -->
+
+                        <!-- Saldo Disponível -->
+                        <div class="bg-myprimary rounded-5 w-75 py-4 px-4 d-flex flex-column justify-content-center mb-4 ">
+                            <p class="mb-0">Saldo Disponível</p>
+                            <p class="fw-bolder fs-1 mb-0">R$ 100,00</p>
+                        </div>
+                        <!-- Fim Saldo Disponível -->
+
+                    </div>
+                    <!-- Fim Coluna 1 -->
+
+                    <div class="col px-0">
+                        
+                    </div>
+                </div>
+                <!-- Fim Dash -->
+
+
+            </div>
+            <!-- Fim Conteúdo -->
+
+        </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="./js/main.js"></script>

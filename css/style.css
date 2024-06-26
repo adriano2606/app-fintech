@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root{
     --primary-color: #C6FE1E;
     --secondary-color: #030028;
@@ -9,8 +11,17 @@
     --black-grey-color: #18181A;
 }
 
-.bg-light-gryey{
+body{
+    font-family: Poppins;
+}
+
+
+.bg-light-grey{
     background-color: var(--light-grey-color);
+}
+
+.bg-medium-grey{
+    background-color: var(--medium-grey-color);
 }
 
 .bg-black-grey{
@@ -21,14 +32,23 @@
     background-color: var(--primary-color);
 }
 
-.my-py-6{
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+.text-dark-grey{
+    color: var(--dark-grey-color);
+}
+
+.title{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.py-6{
+    padding-top: calc(1rem * 4);
+    padding-bottom: calc(1rem * 4);
 }
 
 nav{
-    width: 5%;
     font-size: 1.3rem;
+    width: 5rem;
 }
 
 nav > i:hover {
@@ -37,12 +57,17 @@ nav > i:hover {
 
 .item-menu-selected{
     background-color: var(--primary-color);
-    padding: 1rem;
     color: var(--black-color);
-    border-radius: 75px;
+    border-radius: 40px;
+    font-weight: bold;
 }
 
 .custom-tooltip {
     --bs-tooltip-bg: var(--dark-grey-color);
     --bs-tooltip-color: var(--bs-white);
-  }
+}
+
+.small-text{
+    line-height: 100%;
+    font-size: .8rem;
+}
